@@ -1,0 +1,285 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Validating the facebook with correct username and correct password",
+        "description": "",
+        "id": "validation-of-facebook-webpage;validating-the-facebook-with-correct-username-and-correct-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10617351644,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should open the facebook application",
+            "match": {
+              "location": "StepDef1.user_should_open_the_facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113227106,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the \"ramsss\" and \"12344\" in the application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramsss\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"12344\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef1.user_enters_the_and_in_the_application(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94334539,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "StepDef1.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 792565620,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User verifies the application moved to home page",
+            "match": {
+              "location": "StepDef1.user_verifies_the_application_moved_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Validating the facebook with correct username and correct password",
+        "description": "",
+        "id": "validation-of-facebook-webpage;validating-the-facebook-with-correct-username-and-correct-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14223451701,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should open the facebook application",
+            "match": {
+              "location": "StepDef1.user_should_open_the_facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151110251,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the \"ajay\" and \"09876\" in the application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ajay\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"09876\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDef1.user_enters_the_and_in_the_application(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104852818,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "StepDef1.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3849574307,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User verifies the application moved to home page",
+            "match": {
+              "location": "StepDef1.user_verifies_the_application_moved_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Validating the facebook with correct username and correct password",
+        "description": "",
+        "id": "validation-of-facebook-webpage;validating-the-facebook-with-correct-username-and-correct-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10256661482,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should open the facebook application",
+            "match": {
+              "location": "StepDef1.user_should_open_the_facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142846806,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the \"murugan\" and \"4567\" in the application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"murugan\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"4567\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef1.user_enters_the_and_in_the_application(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94618831,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "StepDef1.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1306633694,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User verifies the application moved to home page",
+            "match": {
+              "location": "StepDef1.user_verifies_the_application_moved_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Validating the facebook with correct username and correct password",
+        "description": "",
+        "id": "validation-of-facebook-webpage;validating-the-facebook-with-correct-username-and-correct-password;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8365522607,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should open the facebook application",
+            "match": {
+              "location": "StepDef1.user_should_open_the_facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128482380,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the \"Ravikumar\" and \"456789\" in the application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ravikumar\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"456789\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDef1.user_enters_the_and_in_the_application(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94271420,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "StepDef1.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 382628856,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User verifies the application moved to home page",
+            "match": {
+              "location": "StepDef1.user_verifies_the_application_moved_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Facebook Webpage",
+    "description": "",
+    "id": "validation-of-facebook-webpage",
+    "keyword": "Feature",
+    "uri": "C:/Users/RAM SARATH KUMAR/eclipse-workspace/Cucumber8PM/src/test/resources/Facebooklogin.feature",
+    "tags": []
+  }
+]

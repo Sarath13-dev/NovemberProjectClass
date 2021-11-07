@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Validation of Facebook login module",
+        "description": "",
+        "id": "validation-of-facebook-using-different-credentials;validation-of-facebook-login-module;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13542530362,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should login to facebook",
+            "match": {
+              "location": "StepDefFB.user_should_login_to_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 278030197,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"ramsss\"and \"3456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramsss\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"3456789\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefFB.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114183184,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "StepDefFB.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User clicks location \"Melbourne\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17961,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Verifies the login page",
+            "match": {
+              "location": "StepDefFB.user_Verifies_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Facebook using different Credentials",
+    "description": "",
+    "id": "validation-of-facebook-using-different-credentials",
+    "keyword": "Feature",
+    "uri": "C:/Users/RAM SARATH KUMAR/eclipse-workspace/Cucumber8PM/src/test/resources/FBlogin.feature",
+    "tags": []
+  }
+]
